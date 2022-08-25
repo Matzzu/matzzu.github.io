@@ -1,8 +1,10 @@
 h1{
   font-style: italic;
+  background-color: black;
+  color: white;
 }
 #fundo{
-  background-color: #a3a9fa;
+  background-color: #003366;
 }
 .paragrafo{
   color: red;
