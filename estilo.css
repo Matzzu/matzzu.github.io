@@ -1,18 +1,24 @@
-html, body{
-  margin: 0;
-  padding: 0;
+html, body {  margin: 0;  padding: 0;
 }
 
-h1{
-  font-style: italic;
-  text-align: center;
-  color: wihte;
+.header {  background-color: rgb(209, 206, 202);  padding: 30px;
+
+  align-items: center;  font-family: Roboto, sans-serif;  position:relative
 }
-#fundo2{
-  background-color: #003366;
+
+.sideL {  padding: 1000px 150px 1000px 150px;  position: absolute;  left: 0px;  background-color: #ACA69F;  
 }
-.paragrafo{
-  color: white;
-  text-align: center;
+
+.sideR {  padding: 1000px 150px 1000px 150px;  position: absolute;  right: 0px;  background-color: #ACA69F;
+}
+
+.bg {  padding: 1000px 900px 1000px 1000px;  background-color: rgb(190, 183, 175);
+}
+
+.logo {  display: block;  align-items: center;  width: 50%;  width: 200px;  cursor: pointer;
+}
+
+
+@media(max-width: 376px) {  .header{     flex-direction: column;  }
 }
 
