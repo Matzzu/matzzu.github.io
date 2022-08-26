@@ -1,3 +1,8 @@
+html, body{
+  marging: 0;
+  padding: 0;
+}
+
 h1{
   font-style: italic;
   text-align: center;
