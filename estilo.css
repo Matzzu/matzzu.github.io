@@ -1,8 +1,11 @@
 h1{
   font-style: italic;
+  text-align: center;
+}
+#fundo h1{
   background-color: #000000;
   color: white;
-  text-align: center;
+  opacity: 0.6;
 }
 #fundo{
   background-color: #003366;
