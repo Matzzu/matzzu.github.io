@@ -1,56 +1,69 @@
-html, body {
+* {
   margin: 0;
   padding: 0;
+  font-family: Roboto, sans-serif;
+  overflow-x: hidden;
 }
 
 
+body {
+  background-color: #ACA69F;
+}
 
 .header {
+  width: 100vw;
   background-color: rgb(209, 206, 202);
   padding: 30px;
-
   align-items: center;
-  font-family: Roboto, sans-serif;
-  position:relative
-}
-
-
-
-.sideL {
-  padding: 1000px 150px 1000px 150px;
-  position: absolute;
-  left: 0px;
-  background-color: #ACA69F;
+  position:fixed;
   
 }
 
-
-
-.sideR {
-  padding: 1000px 150px 1000px 150px;
-  position: absolute;
-  right: 0px;
-  background-color: #ACA69F;
-}
-
-
-
 .bg {
-  padding: 1000px 900px 1000px 1000px;
+  width: 70vw;
+  margin: auto;
+  height: 100vh;
   background-color: rgb(190, 183, 175);
+ 
 }
-
-
 
 .logo {
   display: block;
   width: 200px;
   cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.img1 {
+  margin: auto;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+
+.txt {
+  font-weight: bold;
+  max-width: 600px;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+  background-color: rgba(221, 205, 185, 0.925);
+  height: 45px;
+}
+
+#pad {
+  padding-top: 150px;
+} 
+
 
 
 @media(max-width: 376px) {
-  .header{
-    flex-direction: column;
-  }
+
 }
+
+::-webkit-scrollbar {
+  opacity: 0;
+} 
