@@ -122,6 +122,11 @@
 	 margin-left: 100px;
 	 
  }
+
+@media(max-width: 376px) {
+
+}
+
 ::-webkit-scrollbar {
   opacity: 0;
 } 
