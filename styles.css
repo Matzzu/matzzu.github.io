@@ -20,9 +20,9 @@ body {
 }
 
 .dropdown{
-	float:left;
-	align-items: middle-left;
-	
+	float: right;
+	padding-right: 150px;
+	padding-top: 25px;
 }
 
 .navbar a {
